@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My-First-Angular-Project';
+
+  loadedfeature : String='recipe';
+
+  PFeature(feature: String){
+    console.log("Hi  "+feature);
+    
+    this.loadedfeature=feature;
+  }
+
+
 }
+ 
